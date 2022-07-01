@@ -1,0 +1,40 @@
+.cropper-view-box {
+   border-radius: 50%;
+}
+.result {
+   width: 400px;
+}
+
+img {
+   display:block;
+   max-width: 100%;
+}
+.box {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+.box > div {
+   flex: 30%;
+   margin: 10px;
+}
+
+.cropped {
+   width: 300px;
+   border-radius: 50%;
+   border: 1px solid gray;
+}
+
+.cropped-result {
+   height: 300px;
+   border-radius: 50%;
+}
+
+button {
+   width: 100px;
+   height: 50px;
+   background-color: dodgerblue;
+   border: none;
+   border-radius: 2px;
+   margin-top: 100px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.4/cropper.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <label for="file">Upload image</label>
+        <input type="file" id="file-input" required accept="image/*" />
+        <div class="result"></div>
+      </div>
+      <div>
+        <button class="save">save</button>
+      </div>
+      <div class="cropped-result">
+        <img src="" alt="" class="cropped" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/0.8.1/cropper.min.js"></script>
+</html>
